@@ -2,7 +2,7 @@
   "name": "3d_portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dark40.github.io/3d-portfolio/",
+  "homepage": "https://dark40.github.io/3d-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
