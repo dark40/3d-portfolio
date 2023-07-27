@@ -30,6 +30,8 @@ import bt from "./company/bt.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crm from "./crm.png";
+import cocktail from "./cocktail.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  crm,
+  cocktail,
 };

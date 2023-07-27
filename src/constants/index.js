@@ -20,9 +20,10 @@ import {
     // starbucks,
     // tesla,
     // shopify,
-    carrent,
+    crm,
+    cocktail,
     jobit,
-    tripguide,
+    // tripguide,
     threejs,
   } from "../assets";
   
@@ -212,9 +213,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Simply CRM",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A simple case management built with flexibility to to extend scope. Publicly known Client Relationship Management (CRM) system usually features numerous functions and components but not tailored for some businesses. ",
       tags: [
         {
           name: "react",
@@ -225,54 +226,54 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Ant Design",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crm,
+      source_code_link: "https://github.com/dark40/crm",
     },
     {
-      name: "Job IT",
+      name: "Fridge Magician",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This application allows the user to determine what recipes they can make with the ingredients stored within their fridge. The application uses a mysql database to provide recipe information to the user, and allows the user to change the ingredients within their fridge from valid ingredients stored in the database.",
       tags: [
         {
-          name: "react",
+          name: "mySQL",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MVC",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Handlebars",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/dark40/fridge-magican/tree/main",
     },
     {
-      name: "Trip Guide",
+      name: "Cocktail Recipe Finder",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Cocktail Recipe Finder is a great news for cocktail lovers who want to make cocktails at home. Simply search the name, it gives you a demo picture, a list of ingredients and an instruction.",
       tags: [
         {
-          name: "nextjs",
+          name: "restapi",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cocktail,
+      source_code_link: "https://github.com/dark40/cocktail-recipe-party-activity",
     },
   ];
   
