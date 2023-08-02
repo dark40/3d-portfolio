@@ -22,9 +22,11 @@ import {
     // shopify,
     crm,
     cocktail,
-    jobit,
+    // jobit,
     // tripguide,
     threejs,
+    react_native,
+    fridge
   } from "../assets";
   
   export const navLinks = [
@@ -48,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "React Native Developer",
       icon: mobile,
     },
     {
@@ -218,7 +220,7 @@ import {
         "A simple case management built with flexibility to to extend scope. Publicly known Client Relationship Management (CRM) system usually features numerous functions and components but not tailored for some businesses. ",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -232,6 +234,27 @@ import {
       ],
       image: crm,
       source_code_link: "https://github.com/dark40/crm",
+    },
+    {
+      name: "Job Search Mobile App",
+      description:
+        "This is a job search app built with EXPO and React Native. It allows people to search the job based on the title or keywords. It also features in popular jobs and nearby jobs that based on location. The customAPI is used from Rapid API that allows to search the jobs in the market.  ",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rapid API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: react_native,
+      source_code_link: "https://github.com/dark40/react_native_jobs",
     },
     {
       name: "Fridge Magician",
@@ -251,7 +274,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: fridge,
       source_code_link: "https://github.com/dark40/fridge-magican/tree/main",
     },
     {

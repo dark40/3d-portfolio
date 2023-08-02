@@ -32,6 +32,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import crm from "./crm.png";
 import cocktail from "./cocktail.png";
+import react_native from "./react_native.png";
+import fridge from "./fridge.jpg";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   tripguide,
   crm,
   cocktail,
+  react_native,
+  fridge
 };
