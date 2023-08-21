@@ -34,6 +34,7 @@ import crm from "./crm.png";
 import cocktail from "./cocktail.png";
 import react_native from "./react_native.png";
 import fridge from "./fridge.jpg";
+import threads from "./threads.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   crm,
   cocktail,
   react_native,
-  fridge
+  fridge,
+  threads,
 };

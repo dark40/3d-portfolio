@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    // typescript,
+    typescript,
     html,
     css,
     reactjs,
@@ -21,6 +21,7 @@ import {
     // tesla,
     // shopify,
     crm,
+    threads,
     cocktail,
     // jobit,
     // tripguide,
@@ -76,10 +77,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -214,6 +215,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Threads",
+      description:
+        "This is a threads application built with MERN stack and Next.js 13.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threads,
+      source_code_link: "https://github.com/dark40/threads",
+    },
     {
       name: "Simply CRM",
       description:
